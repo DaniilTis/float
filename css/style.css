@@ -1,0 +1,22 @@
+.clearfix {
+	clear: both;
+}
+.header {
+	background: green;
+}
+.logo {
+	background-color: blue;
+	width: 500px;
+	height: 500px;
+	float: left;
+}
+.nav {
+	background-color: blue;
+	width: 500px;
+	height: 500px;
+	float: right;
+}
+
+.block {
+	background-color: yellow;
+}
