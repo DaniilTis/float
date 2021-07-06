@@ -25,16 +25,14 @@
 	margin-bottom: 50px;
 }
 
-.nav-list {
-	float: right;
-}
-
 .nav-list li {
-	display: inline-block;
+	margin: 10px;
+	float: right;
 	background: green;
 	width: 200px;
 	height: 200px;
 }
+
 .logo-block {
 	margin: 10px;
 	width: 200px;
@@ -48,23 +46,17 @@
 	margin-bottom: 50px;
 }
 
-.section-list {
-	float: left;
-}
-
 .section-list li {
-	display: inline-block;
+	margin: 10px;
+	float: left;
 	width: 200px;
 	height: 200px;
 	background-color: red;
 }
 
-.section-list-right {
-	float: right;
-}
-
 .section-list-right li {
-	display: inline-block;
+	margin: 10px;
+	float: right;
 	width: 200px;
 	height: 200px;
 	background-color: red;
@@ -72,12 +64,14 @@
 
 footer {
 	background-color: tomato;
-	text-align: center;
 }
-
+.float-container {
+	max-width: 500px;
+	margin: auto;
+}
 .footer-list li {
 	vertical-align: top;
-	display: inline-block;
+	float: left;
 }
 
 .footer-item-title {
@@ -99,13 +93,12 @@ footer {
 
 .container {
 	background-color: red;
-	text-align: right;
 }
 
 .container-list li {
 	margin-right: 10px;
 	vertical-align: top;
-	display: inline-block;
+	float: right;
 }
 .container-img {
 	margin: 10px;
