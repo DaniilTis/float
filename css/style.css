@@ -23,15 +23,12 @@
 	margin-bottom: 50px;
 }
 
-ul li {
-	display: inline-block;
-}
-
 .nav-list {
 	float: right;
 }
 
 .nav-list li {
+	display: inline-block;
 	background: green;
 	width: 200px;
 	height: 200px;
@@ -45,6 +42,7 @@ ul li {
 
 .section {
 	background-color: teal;
+	margin-bottom: 50px;
 }
 
 .section-list {
@@ -52,6 +50,7 @@ ul li {
 }
 
 .section-list li {
+	display: inline-block;
 	width: 200px;
 	height: 200px;
 	background-color: red;
@@ -62,7 +61,38 @@ ul li {
 }
 
 .section-list-right li {
+	display: inline-block;
 	width: 200px;
 	height: 200px;
 	background-color: red;
+}
+
+footer {
+	background-color: tomato;
+	text-align: center;
+}
+.conteiner {
+	max-width: 1170px;
+	margin: auto;
+}
+.footer-list li {
+	vertical-align: top;
+	display: inline-block;
+}
+
+.footer-item-title {
+	background-color: yellowgreen;
+	width: 200px;
+	height: 90px;
+}
+.footer-item-text {
+	background-color: yellowgreen;
+	width: 200px;
+	height: 90px;
+}
+.footer-img {
+	margin: 10px;
+	width: 200px;
+	height: 200px;
+	background-color: yellowgreen;
 }
